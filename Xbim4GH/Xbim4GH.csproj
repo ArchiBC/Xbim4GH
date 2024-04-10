@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net48</TargetFrameworks>
+    <Version>1.0</Version>
+    <Title>Xbim4GH</Title>
+    <Description>Description of Xbim4GH</Description>
+    <TargetExt>.gha</TargetExt>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Grasshopper" Version="8.5.24072.13001" IncludeAssets="compile;build" />
+    <PackageReference Include="SimpleGrasshopper" Version="1.6.2" />
+    <PackageReference Include="Xbim.Essentials" Version="6.0.445" />
+  </ItemGroup>
+
+</Project>
